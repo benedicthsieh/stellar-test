@@ -1,1 +1,1 @@
-# stellar-test
+execute this by running $ python scrub_file.py
