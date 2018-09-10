@@ -49,7 +49,7 @@ def upload_scrubbed_file():
     s3.Bucket(BUCKET_NAME).put_object(Key=KEY, Body=data)
 
 def main():
-    #download_file()
+    download_file()
     write_scrubbed_file()
     upload_scrubbed_file()
 
